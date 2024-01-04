@@ -83,8 +83,8 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     url_base = "http://artifactory.santanderbr.corp/artifactory"  # Substitua pela URL do seu Artifactory
-    username = 't798552'  # Substitua pelo seu usuário
-    api_key = 'AKCpBrv6sB4SSRh1gT2E5UeyvNoi9j3kcdZpoRjk3aj5BLGBwLMiLxu4vR5reWzP7dxzf69v5'  # Substitua pela sua chave API
+    username = ''  # Substitua pelo seu usuário
+    api_key = ''  # Substitua pela sua chave API
 
     if args.repo:
         # Listar e baixar arquivos do repositório especificado de forma recursiva
